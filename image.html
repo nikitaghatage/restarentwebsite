@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style type="text/css">
+        body {
+            background: linear-gradient(to right, #f8ef98, #f3a3bf); 
+}
+nav {
+    background-color: #f76464;
+    color: #0e0d0d;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    font-size: 22px;
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+}
+.nav-links li {
+    margin-right: 20px;
+}
+.nav-links li:last-child {
+    margin-right: 0;
+}
+.nav-links li a {
+    color: #070707;
+    text-decoration: none;
+    padding: 25px;
+}
+.menu-bar img {
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+}
+.img-brg{
+            float: right;
+            width: 50%;
+            height: 50%;
+        }
+        .pos_cntr{
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 50%;
+            left: 8%;
+        }
+        p{
+            line-height: 0.7;
+        }
+        .pink-button{
+            background-color: #f76464;
+            width: 30%;
+            height: 25%;
+            border: none;
+            border-radius: 0px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+}
+
+/* Default styles for all devices */
+/* You can put your base styles here */
+
+/* Styles for tablets (landscape and portrait) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+    font-size: 16px;
+  }
+
+  /* Example styles for a specific element */
+  .tablet-specific-element {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* Your tablet landscape-specific styles go here */
+  body {
+    font-size: 16px;
+  }
+
+  /* Example styles for a specific element */
+  .tablet-landscape-specific-element {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 767px) {
+    body {
+    font-size: 14px;
+  }
+
+  /* Example styles for a specific element */
+  .mobile-specific-element {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+}
+
+/* Styles for desktops */
+@media only screen and (min-width: 1025px) {
+    body {
+    font-size: 18px;
+  }
+
+  /* Example styles for a specific element */
+  .desktop-specific-element {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#"><b>Home</b></a></li>
+                <li><a href="#"><b>Food</b></a></li>
+                <li><a href="#"><b>Order</b></a></li>
+                <li><a href="#"><b>Restaurant</b></a></li>
+                <li><a href="#"><b>Testimonials</b></a></li>
+                <li><a href="#"><b>Contact Us</b></a></li>
+            </ul>
+            <div class="menu-bar">
+                <img src="menu-bar.png" alt="menu-bar" border="0">
+            </div>
+        </div>
+    </nav>
+    
+    
+
+
+    <img class="img-brg"  src="pexels-robin-stickel-70497.png">
+
+    <div class="pos_cntr">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 style="font-size:45px"><b>LOREM IPSUM</b></h1>
+    <br>
+    <br>
+            <p  style="font-size:19px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus</p>
+            <p  style="font-size:19px">id est vitae dolor rhoncus tristique. Maecenas metus quam,</p>
+            <p  style="font-size:19px">rhoncus euismod lorem in, sollicitudin viverra eros. Donec</p>
+            <p  style="font-size:19px">dictum luctus quam ut tristique. Curabitur nec faucibus purus.</p>
+            <p  style="font-size:19px">Quisque congue sem nec justo mollis, in tincidunt erat pretium.</p>
+            <p  style="font-size:19px">Sed pulvinar, massa ac porta viverra.</p>
+            <br>
+            <br>
+            <button class="pink-button">Click Me</button>
+        </div>
+
+        
+        
+</body>
+</html>
